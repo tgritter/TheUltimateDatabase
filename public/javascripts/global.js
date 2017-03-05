@@ -112,7 +112,7 @@ function showUserInfo(event) {
     $('#llMusicStart').text(thisUserObject.musicstart);
     $('#llMusicEnd').text(thisUserObject.musicend);
    
-    $('#llReadingTitle').text(thisUserObject.readingstart);
+    $('#llReadingTitle').text(thisUserObject.readingtitle);
     $('#llReadingAuthor').text(thisUserObject.readingauthor);
     $('#llReadingRating').text(thisUserObject.readingrating);
     $('#llReadingThoughts').text(thisUserObject.readingthoughts);
@@ -245,7 +245,7 @@ function addUser(event) {
             
             'vgtitle': $('#addUser fieldset input#inputVGTitle').val(),
             'vgcreator': $('#addUser fieldset input#inputVGCreator').val(),
-            'vgrating': $('#addUser fieldset input#inputRating').val(),
+            'vgrating': $('#addUser fieldset input#inputVGRating').val(),
             'vgthoughts': $('#addUser fieldset input#inputVGThoughts').val(),
             'vgachivements': $('#addUser fieldset input#inputVGAchivements').val(),
             'vgstart': $('#addUser fieldset input#inputVGStart').val(),
